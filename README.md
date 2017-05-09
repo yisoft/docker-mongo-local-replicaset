@@ -30,7 +30,7 @@ The container will create one volume at `/data`, but you can mount one or more t
   - db3: `/data/db3`
 
 #### REPLICA SET NAME
-It's called: `rs0`
+You can customize the replica set name by providing `REPLICA_SET_NAME` environment variable. default name is: `rs0`
 
 ## Notes
 
