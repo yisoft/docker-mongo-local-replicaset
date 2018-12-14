@@ -1,4 +1,4 @@
-FROM mongo:3.5.6
+FROM mongo:4.1.6
 
 RUN apt-get update && apt-get install -y --no-install-recommends openssl && rm -rf /var/lib/apt/lists/*
 
